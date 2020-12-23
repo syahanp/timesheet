@@ -1,0 +1,10 @@
+$primary : #5263FF;
+
+// DARK THEME
+$dt_bg_primary : #201F1F;
+$dt_text_primary : #EDEDED;
+
+/* webpack export */
+:export {
+    primary : $primary;
+}

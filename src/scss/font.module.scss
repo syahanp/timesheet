@@ -1,0 +1,22 @@
+@import './colors.module.scss';
+
+$primary : 'Nunito', sans-serif;
+
+$light : 300;
+$regular : 400;
+$medium : 600;
+$bold : 700;
+$black : 800;
+$italic: italic;
+
+// webpack export
+:export {
+    primary : $primary;
+
+    light: $light;
+    regular : $regular;
+    medium : $medium;
+    bold : $bold;
+    black : $black;
+    italic : $italic;
+}
